@@ -1,0 +1,227 @@
+.App {
+}
+body {
+    width: 100%;
+    margin: 0 0;
+    font-family: 'Roboto',Arial,sans-serif;
+    
+    text-rendering: optimizeLegibility;
+    text-rendering: geometricPrecision;
+    -moz-font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+input {
+    padding: 0 0;
+}
+.wrapper {
+    width: 95%;
+    margin: 0 auto;
+}
+.header {
+    width: min(80%, 580px);
+    margin: 0 auto;
+    padding: min(30px, 10%) min(30px, 5%);
+    height: 90px;
+    background-color: white;
+    z-index: 1;
+}
+.header__logo {
+    width: 100%;
+    z-index: 2;
+}
+.header__title {
+    max-width: 420px;
+    margin: 0 auto;
+    margin-top: 135px;
+    margin-bottom: 90px;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+
+/* .music__header {
+    max-width: 420px;
+    margin: 0 auto;
+    margin-top: 135px;
+    text-align: center;
+    margin-bottom: 90px;
+}
+.music__header__title {
+    font-size: 30px;
+    font-weight: 600;
+}
+.music__header__sub-title {
+    font-size: 20px;
+    line-height: 1.4;
+    font-weight: 300;
+} */
+
+.card {
+    width: min(910px, 90%);
+    margin: 0 auto;
+    margin-bottom: 200px;
+    display: grid;
+    row-gap: 60px;
+}
+.music-card {
+    max-width: 480px;
+}
+.music-card__img {
+    width: 100%;
+    height: min-content;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+.music-card__title {
+    max-width: 320px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+.music-card__about {
+    max-width: 320px;
+    font-size: 12px;
+    line-height: 1.55;
+    font-weight: 300;
+}
+.music-card__track-list {
+}
+.music-card__track-list ul{
+    padding: 0;
+}
+.music-card__track-list li{
+    list-style-type: none;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.audio {
+    display: block;
+    width: 100%;
+}
+.form {
+    margin: 0 auto;
+    padding: 90px 0;
+}
+.form__input {
+    color: #000000;
+    border: 1px solid #000000;
+    height: 60px;
+    width: calc(100% - 20px);
+    padding-left: 20px;
+    font-size: 16px;
+    line-height: 1.33;
+    margin-bottom: 10px;
+}
+.form__submit-button {
+    background-color: #000000;
+    color: #fff;
+    border: 1px solid #000000;
+    text-align: center;
+    height: 60px;
+    width: 100%;
+    padding: 0 20px;
+    border: 0 none;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.about-us {
+    padding: 150px 0px;
+    text-align: center;
+}
+.about-us__header {
+    margin-bottom: 45px;
+}
+.about-us__header__title {
+    font-size: 30px;
+    line-height: 1.23;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.about-us__header__sub-title {
+    font-size: 20px;
+    line-height: 1.4;
+    font-weight: 300;
+}
+.list {
+    padding: 0 0;
+    text-align: left;
+    max-width: 760px;
+    margin: 0 auto; 
+}
+.list__item {
+    list-style-type: none;
+    display: flex;
+    margin-bottom: 50px;
+}
+.list__img {
+    max-width: 40px;
+    max-height: 40px;
+    margin-right: 20px;
+}
+.list__body {
+
+}
+.list__title {
+    margin-bottom: 14px;    
+    font-weight: 600;
+}
+.list__about {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.45;
+}
+
+
+/* styles for tablet's screen */
+@media screen and (min-width: 480px) {
+    .music-card {
+        max-width: 360px;
+    }
+    .card {
+        width: min(640px, 95%);
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        justify-content:auto;
+        row-gap: 50px;
+        column-gap: 20px;
+    }
+}
+@media screen and (min-width: 640px) {
+    .form {
+    display: flex;
+    gap: 20px;
+    max-width: 620px;
+    }
+    .form__input {
+        width: 260px;
+    }
+    .form__submit-button {
+        width: 300px;
+    }
+    }
+@media screen and (min-width: 960px) {
+
+}
+@media screen and (min-width: 1200px) {
+        .card {
+        display: flex;
+        gap: 20px;
+        width: min(1080px, 95%);
+    }
+    .music-card {
+        width: 360px;
+    }
+    .music-card__img {
+        width: 360px;
+        height: 360px;
+    }
+    .form {
+    max-width: 760px;
+    }
+    .form__input {
+    width: 400px;
+    }
+}

@@ -1,23 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import './styles/styles.css';
+import logoImg from './images/Logo.svg'
+import Music from './components/music_component'
+import Registration from './components/reg_component';
+import AboutUs from './components/about_us';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="wrapper">
+        <header className="header">
+          <a href="https://imstream.net/">
+            <img className="header__logo" src={logoImg} alt='IMSTREAM logo' />
+          </a>
+        </header>
+        <div className="header__title">
+          <p>Музыка для бизнеса</p>
+        </div>
+
+        <Music />
+
+        <Registration />
+
+        <AboutUs />
+      </div>
     </div>
   );
 }
