@@ -5,6 +5,7 @@ import Registration from './components/reg_component';
 import AboutUs from './components/about_us';
 
 function App() {
+
   return (
     <div className="App">
       <div className="wrapper">

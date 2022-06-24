@@ -6,7 +6,7 @@ export default function AboutUs() {
         <div className='about-us'>
             <div className="about-us__header">
                 <div className='about-us__header__title'>
-                    Почему мы такие классные
+                    Лицензионная музыка
                 </div>
                 <div className='about-us__header__sub-title'>
                     We work hard every day to make life of our clients better and happier
@@ -18,7 +18,7 @@ export default function AboutUs() {
 
                     <div className="list__body">
                         <div className="list__title">
-                            Абсолютно легально
+                            Правовая защита
                         </div>
                         <div className="list__about">
                             We are a leading firm in providing quality and value to our customers. Each member of our team has at least 5 years of legal experience.
@@ -31,7 +31,7 @@ export default function AboutUs() {
 
                     <div className="list__body">
                         <div className="list__title">
-                            Отличная музыка
+                            Без отчислений в РАО и ВИОС
                         </div>
                         <div className="list__about">
                             Our managers are always ready to answer your questions. You can call us at the weekends and at night. You can also visit our office for a personal consultation.

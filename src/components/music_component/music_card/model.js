@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function MusicCard({ props }) {
+export default function MusicCard({ props, pauseRunningAudio }) {
 
     return (
         <div className='music-card'>
@@ -19,9 +19,12 @@ export default function MusicCard({ props }) {
                         return (
                             <li key={index}>
                                 <audio
+                                    id={`track${item.id}`}
+                                    onPlay={() => pauseRunningAudio(`track${item.id}`)}
                                     className='audio'
                                     controls
-                                    src={item}
+                                    preload='metadata'
+                                    src={item.url}
                                 ></audio>
                             </li>)
                     })}
