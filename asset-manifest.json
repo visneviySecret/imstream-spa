@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/imstream-spa/static/css/main.59fdd1ec.css",
+    "main.css": "/imstream-spa/static/css/main.00c2c0cf.css",
     "main.js": "/imstream-spa/static/js/main.8a69c6fe.js",
     "static/js/787.61b9d20e.chunk.js": "/imstream-spa/static/js/787.61b9d20e.chunk.js",
     "static/media/fitness_img.jpg": "/imstream-spa/static/media/fitness_img.b2f8b23671dbb059b473.jpg",
@@ -9,12 +9,12 @@
     "static/media/Logo.svg": "/imstream-spa/static/media/Logo.adffe92e68d4d9cc91003b09595ded54.svg",
     "index.html": "/imstream-spa/index.html",
     "static/media/CheckImg.svg": "/imstream-spa/static/media/CheckImg.bcd677c1d324d661f184d879ca744aa6.svg",
-    "main.59fdd1ec.css.map": "/imstream-spa/static/css/main.59fdd1ec.css.map",
+    "main.00c2c0cf.css.map": "/imstream-spa/static/css/main.00c2c0cf.css.map",
     "main.8a69c6fe.js.map": "/imstream-spa/static/js/main.8a69c6fe.js.map",
     "787.61b9d20e.chunk.js.map": "/imstream-spa/static/js/787.61b9d20e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.59fdd1ec.css",
+    "static/css/main.00c2c0cf.css",
     "static/js/main.8a69c6fe.js"
   ]
 }
