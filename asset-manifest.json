@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/imstream-spa/static/css/main.3d6cacf1.css",
+    "main.css": "/imstream-spa/static/css/main.88f294bb.css",
     "main.js": "/imstream-spa/static/js/main.6eda7b23.js",
     "static/js/787.61b9d20e.chunk.js": "/imstream-spa/static/js/787.61b9d20e.chunk.js",
     "static/media/shop_img.jpg": "/imstream-spa/static/media/shop_img.53977eb2732b3a6ede44.jpg",
@@ -9,12 +9,12 @@
     "static/media/Logo.svg": "/imstream-spa/static/media/Logo.adffe92e68d4d9cc91003b09595ded54.svg",
     "index.html": "/imstream-spa/index.html",
     "static/media/CheckImg.svg": "/imstream-spa/static/media/CheckImg.bcd677c1d324d661f184d879ca744aa6.svg",
-    "main.3d6cacf1.css.map": "/imstream-spa/static/css/main.3d6cacf1.css.map",
+    "main.88f294bb.css.map": "/imstream-spa/static/css/main.88f294bb.css.map",
     "main.6eda7b23.js.map": "/imstream-spa/static/js/main.6eda7b23.js.map",
     "787.61b9d20e.chunk.js.map": "/imstream-spa/static/js/787.61b9d20e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3d6cacf1.css",
+    "static/css/main.88f294bb.css",
     "static/js/main.6eda7b23.js"
   ]
 }
