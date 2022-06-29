@@ -45,14 +45,14 @@ input {
     margin: 0 auto;
     margin-bottom: 100px;
     display: grid;
-    row-gap: 60px;
+    row-gap: 10px;
 }
 .music-card {
     max-width: 480px;
 }
 .music-card__img {
     width: 100%;
-    height: min-content;
+    height: auto;
     object-fit: cover;
     margin-bottom: 20px;
 }
@@ -81,7 +81,25 @@ input {
 .audio {
     display: block;
     width: 100%;
+    /* background-color: rgba(218, 32, 50, 0.315); */
 }
+.audio::-webkit-media-controls-enclosure {
+    height: 50px;
+    background-color: rgba(218, 32, 50, 0.315);
+}
+/* .audio::-webkit-slider-thumb:hover {
+  background-color: rgba(218, 32, 50, 0.315);
+}
+.audio::-moz-range-track{
+    background-color: rgba(218, 32, 50, 0.315);
+}
+.audio::-ms-track{
+    background-color: rgba(218, 32, 50, 0.315);
+} */
+/* :host(audio) {
+    height: 50px!important;
+      background-color: rgba(218, 32, 50, 0.315)!important;
+} */
 .reg-component {
     margin: 0 auto;
     padding: 90px 0;
@@ -131,7 +149,7 @@ input {
 .list {
     padding: 0 0;
     text-align: left;
-    max-width: 760px;
+    max-width: 310px;
     margin: 0 auto; 
 }
 .list__item {
@@ -145,10 +163,10 @@ input {
     margin-right: 20px;
 }
 .list__body {
-
+    text-align: center;
 }
 .list__title {
-    margin-bottom: 14px;    
+    line-height: 40px;
     font-weight: 600;
 }
 .list__about {
@@ -168,7 +186,7 @@ input {
         display: grid;
         grid-template-columns: 1fr 1fr ;
         justify-content:auto;
-        row-gap: 50px;
+        row-gap: 10px;
         column-gap: 20px;
     }
 }

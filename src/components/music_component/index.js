@@ -6,7 +6,7 @@ function Music() {
         {
             id: 1,
             title: 'Для кафе',
-            about: 'Булочки станут вкуснее от звуков музыки imstream',
+            about: 'Булочки будут вкуснее',
             img: require('../../images/cafe_img.jpg'),
             src: [
                 { id: 1, url: 'https://storage.yandexcloud.net/imstream/Lounge.mp3' },
@@ -20,7 +20,7 @@ function Music() {
         {
             id: 2,
             title: 'Фитнес',
-            about: '+ 20 кг к приседу',
+            about: '+ коктейл в баре',
             img: require('../../images/fitness_img.jpg'),
             src: [
                 { id: 7, url: 'https://storage.yandexcloud.net/imstream/fitness_1.wav' },
@@ -31,7 +31,7 @@ function Music() {
         {
             id: 3,
             title: 'Магазин',
-            about: 'Тоже хорошо',
+            about: 'На 20% поднимает средний чек',
             img: require('../../images/shop_img.jpg'),
             src: [
                 { id: 10, url: 'https://storage.yandexcloud.net/imstream/stores_1.mp3' },
