@@ -20,7 +20,7 @@ function Music() {
         {
             id: 2,
             title: 'Фитнес',
-            about: '+ коктейл в баре',
+            about: '+ коктейль в баре',
             img: require('../../images/fitness_img.jpg'),
             src: [
                 { id: 7, url: 'https://storage.yandexcloud.net/imstream/fitness_1.wav' },

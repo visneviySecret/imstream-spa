@@ -36,7 +36,7 @@ export default function AboutUs() {
 
                     <div className="list__body">
                         <div className="list__title">
-                            Без отчислений в РАО и ВИОС
+                            Без отчислений в РАО и ВОИС
                         </div>
 
                     </div>

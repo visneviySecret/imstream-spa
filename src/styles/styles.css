@@ -43,7 +43,7 @@ input {
 .card {
     width: min(910px, 90%);
     margin: 0 auto;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     display: grid;
     row-gap: 10px;
 }
@@ -102,7 +102,6 @@ input {
 } */
 .reg-component {
     margin: 0 auto;
-    padding: 90px 0;
 }
 .reg-component__input {
     color: #000000;
@@ -129,7 +128,7 @@ input {
 }
 
 .about-us {
-    padding: 150px 0px;
+    padding: 50px 0px;
     text-align: center;
 }
 .about-us__header {

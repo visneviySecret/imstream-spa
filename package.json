@@ -1,7 +1,7 @@
 {
-  "name": "imstream-spa",
+  "name": "imstream",
   "version": "0.1.0",
-  "homepage": "https://visneviySecret.github.io/imstream-spa",
+  "homepage": "https://visneviySecret.github.io/imstream",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
