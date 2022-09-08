@@ -267,7 +267,7 @@ input {
     }
     .img-content__sub-title{
         font-size: 1.1rem;
-        width: max(16%, 300px);
+        width: max(12%, 300px);
     }
     .img-content__redirect-btn{
         width: 220px;
