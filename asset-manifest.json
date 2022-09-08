@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/imstream-spa/static/css/main.b1b5a8bc.css",
-    "main.js": "/imstream-spa/static/js/main.bc3de03b.js",
+    "main.css": "/imstream-spa/static/css/main.5216c827.css",
+    "main.js": "/imstream-spa/static/js/main.f64b22f2.js",
     "static/js/787.61b9d20e.chunk.js": "/imstream-spa/static/js/787.61b9d20e.chunk.js",
     "static/media/shop_img.jpg": "/imstream-spa/static/media/shop_img.2e62ddfac680c39385d9.jpg",
+    "static/media/background-photo.jpeg": "/imstream-spa/static/media/background-photo.58637baebcb15f866add.jpeg",
     "static/media/cafe_img.jpg": "/imstream-spa/static/media/cafe_img.ee46cebaf43dcba6627f.jpg",
     "static/media/fitness_img.jpg": "/imstream-spa/static/media/fitness_img.ce64afef734b306e2daf.jpg",
     "static/media/Logo.svg": "/imstream-spa/static/media/Logo.adffe92e68d4d9cc91003b09595ded54.svg",
     "index.html": "/imstream-spa/index.html",
     "static/media/CheckImg.svg": "/imstream-spa/static/media/CheckImg.bcd677c1d324d661f184d879ca744aa6.svg",
-    "main.b1b5a8bc.css.map": "/imstream-spa/static/css/main.b1b5a8bc.css.map",
-    "main.bc3de03b.js.map": "/imstream-spa/static/js/main.bc3de03b.js.map",
+    "main.5216c827.css.map": "/imstream-spa/static/css/main.5216c827.css.map",
+    "main.f64b22f2.js.map": "/imstream-spa/static/js/main.f64b22f2.js.map",
     "787.61b9d20e.chunk.js.map": "/imstream-spa/static/js/787.61b9d20e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b1b5a8bc.css",
-    "static/js/main.bc3de03b.js"
+    "static/css/main.5216c827.css",
+    "static/js/main.f64b22f2.js"
   ]
 }
