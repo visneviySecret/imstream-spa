@@ -13,7 +13,13 @@ export default function Redirect() {
             <div className="img-content">
                 <div className="img-content__title">МУЗЫКА ДЛЯ БИЗНЕСА</div>
                 <div className="img-content__sub-title">Музыкальное оформление бизнеса
-                    без выплат в РАО и ВОИС</div>
+                    без выплат в РАО и ВОИС
+                    <br />
+                </div>
+                <div className="img-content__sub-title">
+                    Более 100 готовых плейлистов
+                </div>
+
                 <a href="https://imstream.net/">
                     <button className="img-content__redirect-btn">Перейти на основной сайт
                     </button>

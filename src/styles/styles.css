@@ -157,15 +157,15 @@ input {
     font-size: 1.8rem;
     line-height: 1.2;
     font-weight: 700;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 .img-content__sub-title{
     width: 100%;
     font-size: 0.8rem;
     line-height: 1.5;
-    margin: 0.4em auto 0.8em;
+    margin: 0.3em auto 0.8em;
     font-weight: 400;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .img-content__redirect-btn{
     cursor: pointer;
