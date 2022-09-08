@@ -2,6 +2,7 @@ import './styles/styles.css';
 import logoImg from './images/Logo.svg'
 import Music from './components/music_component'
 import Registration from './components/reg_component';
+import Redirection from './components/redirection'
 import AboutUs from './components/about_us';
 
 function App() {
@@ -21,6 +22,8 @@ function App() {
         <Music />
 
         <Registration />
+
+        <Redirection />
 
         <AboutUs />
       </div>
